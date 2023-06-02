@@ -1,0 +1,11 @@
+.header__lang-link {
+  color: #FFFFFF;
+  text-align: right;
+  text-decoration: none;
+  font-family: 'Inter Regular';
+  font-size: 24px;
+}
+
+.header__lang-link:active {
+  text-decoration: underline;
+}

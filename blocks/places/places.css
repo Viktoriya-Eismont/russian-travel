@@ -1,0 +1,9 @@
+.places {
+  margin: 0 auto;
+  padding: 92px 0 0;
+  width: 1280px;
+  background-color: #2A2C2F;
+  display: flex;
+  flex-flow: column;
+  row-gap: 80px;
+}

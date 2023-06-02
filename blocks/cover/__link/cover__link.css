@@ -1,0 +1,16 @@
+.cover__link {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 1184px;
+  text-decoration: none;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover__link:hover .cover__overlay {
+  opacity: 80%;
+  transition: .2s linear;
+}
