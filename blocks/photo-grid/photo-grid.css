@@ -1,11 +1,17 @@
 .photo-grid {
-  width: 1280px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 92px 0 0;
   background-color: #2A2C2F;
   display: grid;
-  grid-template-columns: repeat(4, 284px);
-  grid-template-rows: repeat(3, 213px);
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
   justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    gap: 14px;
+    width: calc(100% - (48px*2));
+  }  
 }

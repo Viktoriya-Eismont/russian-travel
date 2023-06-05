@@ -1,12 +1,12 @@
-.cover__image {
-  max-width: 1184px;
-  margin: 0;
+.page {
+  width: 1280px;
+  background-color: #2A2C2F;
   padding: 0;
-  z-index: 0;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
-  .cover__image {
+  .page {
     max-width: 1024px;
   }  
 }
