@@ -21,3 +21,12 @@
     grid-template-columns: minmax(min-content, 340px) minmax(min-content, 484px);
   }  
 }
+
+@media screen and (max-width: 767px) {
+  .place {
+    row-gap: 32px;
+    margin: 0;
+    grid-template-columns: minmax(min-content, 320px);
+  }  
+}
+

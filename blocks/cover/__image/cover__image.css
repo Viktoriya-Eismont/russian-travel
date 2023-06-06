@@ -16,3 +16,9 @@
     max-width: 768px;
   }  
 }
+
+@media screen and (max-width: 767px) {
+  .cover__image {
+    max-width: 320px;
+  }  
+}
