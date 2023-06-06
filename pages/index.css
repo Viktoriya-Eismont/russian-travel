@@ -9,7 +9,7 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
 
-/*заглавный блок*/
+/*Заглавный блок*/
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 @import url(../blocks/lead/__image/lead__image.css);
