@@ -2,15 +2,15 @@
   color: #FFFFFF;
   text-align: right;
   text-decoration: none;
-  font-family: 'Inter Regular', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
 }
 
-.header__lang-link:active {
-  text-decoration: underline;
+.header__lang-link:hover {
+  opacity: 80%;
 }
 
 @media screen and (max-width: 767px) {

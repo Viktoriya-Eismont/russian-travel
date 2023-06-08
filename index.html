@@ -12,9 +12,9 @@
 <body>
   <div class="page">
     <header class="header">
-      <img src="./images/header-logo.svg" alt="Логотип" class="logo logo_place_header">
+      <img src="./images/header-logo.svg" alt="Логотип" class="logo">
       <ul class="header__lang-links">
-        <li><a href="#" class="header__lang-link">Ru</a></li>
+        <li><a href="#" class="header__lang-link header__lang-link_active">Ru</a></li>
         <li><a href="#" class="header__lang-link" lang="En">En</a></li>
       </ul>
     </header>
@@ -22,7 +22,7 @@
     <main>
       <section class="lead">
         <h1 class="lead__title">Путешествия по&nbsp;России</h1>
-        <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
+        <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <img src="./images/lead-polka.jpg" alt="Dаша полка — верхняя" class="lead__image">
         <p class="lead__caption">ваша полка — верхняя</p>
       </section>
@@ -62,7 +62,7 @@
       <section class="places">
         <div class="place">
           <h2 class="place__title">Куршская коса</h2>
-          <div class="place__website place__website_content_end">
+          <div class="place__website">
             <p class="place__url-heading" lang="En">URL</p>
             <a href="http://park-kosa.ru" target="_blank" class="place__link" lang="En">park-kosa.ru</a>
           </div>
@@ -143,23 +143,24 @@
             <a href="http://vodlozero.ru" target="_blank" class="place__link" lang="En">http://vodlozero.ru/</a>
           </div>
           <img src="./images/place-karelia.jpg" alt="Карелия" class="place__image">
-          <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
-            лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских
-            национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем
-            полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный.
-            В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
-            в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
+          <div class="place__paragraphs">
+            <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
+              лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских
+              национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем
+              полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный.
+              В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
+              в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
+          </div>
         </div>
       </section>
 
       <section class="cover">
         <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link">
-          <img src="./images/cover-trains.jpg" class="cover__image" alt="До Байкала «на собаках»">
-          <span class="cover__overlay"></span>
+          <!-- <img src="./images/cover-trains.jpg" class="cover__image" alt="До Байкала «на собаках»"> -->
           <div class="cover__text">
             <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
-            <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе —&nbsp;путешествие от столицы до Байкала на
-              электричках.</h3>
+            <p class="cover__subtitle">По мотивам учебной темы о Транссибе —&nbsp;путешествие от столицы до Байкала на
+              электричках.</p>
           </div>
         </a>
       </section>

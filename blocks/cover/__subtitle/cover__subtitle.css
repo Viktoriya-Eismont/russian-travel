@@ -2,7 +2,7 @@
   margin: 32px auto 0;
   padding: 0;
   max-width: 360px;
-  font-family: 'Inter Regular', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -13,7 +13,9 @@
 
 @media screen and (max-width: 767px) {
   .cover__subtitle {
+    max-width: 288px;
     font-size: 14px;
     line-height: 16px;
+    margin: 16px auto 0;
   }  
 }

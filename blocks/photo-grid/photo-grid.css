@@ -1,7 +1,7 @@
 .photo-grid {
-  max-width: 1280px;
+  max-width: 1184px;
   margin: 0 auto;
-  padding: 92px 0 0;
+  padding: 92px 48px 0;
   background-color: #2A2C2F;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
